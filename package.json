@@ -1,0 +1,29 @@
+{
+  "name": "nestjs-pagination",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vitest",
+    "test": "vitest run",
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "format": "prettier --write .",
+    "lint": "tsc && eslint --fix .",
+    "ci": "pnpm run lint && pnpm run test && pnpm run build"
+  },
+  "keywords": [],
+  "author": "Mirko Romstadt",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.2.5",
+    "@typescript-eslint/eslint-plugin": "^5.59.7",
+    "@typescript-eslint/parser": "^5.59.7",
+    "eslint": "^8.41.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.8",
+    "tsup": "^6.7.0",
+    "typescript": "^5.0.4",
+    "vitest": "^0.31.1"
+  }
+}
