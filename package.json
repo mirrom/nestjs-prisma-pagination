@@ -1,5 +1,5 @@
 {
-  "name": "nestjs-pagination",
+  "name": "nestjs-prisma-pagination",
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
