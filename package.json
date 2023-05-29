@@ -22,7 +22,7 @@
     "ci": "pnpm run lint && pnpm run test && pnpm run build",
     "release": "pnpm run lint && pnpm run test && pnpm run build && changeset publish"
   },
-  "peerDependencies": {
+  "dependencies": {
     "@nestjs/swagger": "^6.3.0",
     "class-transformer": "^0.5.1",
     "class-validator": "^0.14.0"
