@@ -1,5 +1,14 @@
 # nestjs-prisma-pagination
 
+## Installation
+
+```console
+> npm i @mirrom/nestjs-prisma-pagination
+> pnpm add @mirrom/nestjs-prisma-pagination
+> yarn add @mirrom/nestjs-prisma-pagination
+```
+
+
 ## Setup
 
 Add to your main.ts:
