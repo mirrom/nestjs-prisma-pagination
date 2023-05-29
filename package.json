@@ -25,5 +25,10 @@
     "tsup": "^6.7.0",
     "typescript": "^5.0.4",
     "vitest": "^0.31.1"
+  },
+  "dependencies": {
+    "@nestjs/swagger": "^6.3.0",
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.14.0"
   }
 }
